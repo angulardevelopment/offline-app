@@ -1,5 +1,5 @@
-# Worked in any network mode(online/offline)
-
+# JS Store library Demo
+It can give you the ability to Work in any network mode(online/offline).
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.0.
 
 ## Development server
