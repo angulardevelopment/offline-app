@@ -52,6 +52,13 @@
                   "maximumError": "5mb"
                 }
               ]
+            },
+            "hi": {
+              "aot": true,
+              "i18nFile": "src/translate/convertApp.hi.xlf",
+              "i18nFormat": "xlf",
+              "i18nLocale": "es",
+              "i18nMissingTranslation": "error"
             }
           }
         },
@@ -63,7 +70,8 @@
           "configurations": {
             "production": {
               "browserTarget": "offl:build:production"
-            }
+            },
+            "hi": {      "browserTarget": "offl:build:hi"    }
           }
         },
         "extract-i18n": {
@@ -134,6 +142,7 @@
   },
   "defaultProject": "offl",
   "cli": {
-    "defaultCollection": "@ngrx/schematics"
+    "defaultCollection": "@ngrx/schematics",
+    "analytics": "d6f9d961-761b-4f8f-89fe-6b50d6eb82e4"
   }
 }

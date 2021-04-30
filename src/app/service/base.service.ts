@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
-// import {   IDataBase,  DATA_TYPE,  ITable, Instance } from 'jsstore';
-import {   IDataBase,  DATA_TYPE,  ITable } from 'jsstore';
+import {   IDataBase,  DATA_TYPE,  ITable, Instance } from 'jsstore';
 
 declare var JsStore: any;
 @Injectable({
