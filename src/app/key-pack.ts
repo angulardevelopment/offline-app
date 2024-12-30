@@ -1,5 +1,7 @@
 import { set,get,keys } from 'idb-keyval';
 
+// idb-keyval | npm.io | NPM package 
+// used to set and get value from IndexDB.
 ngOnInit() {
 //all methods return promises
 set('hello', 'world')
